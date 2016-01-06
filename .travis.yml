@@ -1,0 +1,7 @@
+language: python
+install:
+ - "pip install html5validator"
+script: "html5validator"
+notifications:
+  email: false
+sudo: false

@@ -1,0 +1,70 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#mobile-demo img {
+	width: 80%;
+}
+.media_list > li {
+	display: inline-block;
+	margin: 10px;
+	padding-left: 40px;
+}
+.media_list > li img {
+	width: 35px;
+}
+.header {
+    padding-left: 240px;
+	padding-right: 0px;
+  }
+.main {
+	padding-left: 240px;
+    padding-right: 0px;
+}
+.footer {
+	padding-left:240px;
+	padding-right: 0px;
+}
+
+ @media only screen and (max-width : 992px) {
+    .header{
+      padding-left: 0;
+	  padding-right: 0;
+    }
+	.main{
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+	.footer {
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+  }
+        
+.bold {
+  font-weight:500;
+}
+.header-amber {
+	background-color: #ffc107;
+	height: 300px;
+	z-index: -10;
+}
+.h-title {
+	padding-top: 250px;
+	font-size: 4.5em;
+	font-weight: 300;
+}
+.h-body {
+	font-size: 2.5em;
+	font-weight: 300;
+}
